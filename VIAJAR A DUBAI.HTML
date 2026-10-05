@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESCUBRE LA MEJOR DEL MUNDO😎</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin: o;
+            font-family: Arial, sans-serif;
+            background-image: url(https://imgs.search.brave.com/JgwpPYG4Xjhzubx0RDa6BNO2SDPwDElyl_k-RLUSyJ0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTU3/NjA0MzcwL3Bob3Rv/L2Rvd250b3duLWR1/YmFpLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1DR0dzSXR2/cDZnVTY0TTY0elc1/NDZ3M2pBU0RXVWU1/UmQ2WVpFOFRTa3c0/PQ);
+            background-position: center;
+            background-size: cover;
+            color: white;
+            
+        }
+         .navbar{
+            position: fixed;
+              top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(8px);
+            display: flex;
+            justify-content: flex-end;
+            padding: 20px 40px;
+            box-sizing: border-box;
+            z-index: 1000;
+         }
+         .navbar ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 10px;
+         }
+         .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .navbar a:hover {
+            color: #f1c40f;
+        }
+        section {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 100px 20px 40px;
+            box-sizing: border-box;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.4);
+            border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+        }
+        h1, h2 {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+        .hero-title {
+            font-size: 3.5rem;
+            margin: 0 0 10px 0;
+            color: #0ff10f;
+        }
+        .turismo-grid {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 30px;
+            max-width: 1000px;
+        }
+        .tarjeta-lugar {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+            border-radius: 12px;
+            overflow: hidden;
+            width: 300px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            text-align: left;
+        }
+        .tarjeta-lugar img {
+            width: 90%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+        .tarjeta-info {
+            padding: 20px;
+        }
+        .tarjeta-info h3 {
+            margin: 0 0 10px 0;
+            color: #0fcff1;
+        }
+        .tarjeta-info p {
+            margin: 0;
+            font-size: 0.95rem;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+   <nav class="navbar">
+    <h1>BIENVENIDOS</h1>
+    <ul>
+        <li><a href="#Inicio"></a>Inicio</li>
+        <li><a href="#Disfruta los lugares Turisticos"></a>Disfruta los lugares Turisticos</li>
+        <li><a href="#Vuelos"></a>Siguenos</li>
+        <li><a href="#Asombrate de todo lo ves"></a>Asombrate de todo lo ves</li>
+        <li><a href="#contactanos"></a>Contactanos</li>
+    </ul>
+    </nav> 
+    <section id="Inicio">
+         <h1 class="hero-title">DESCUBRE SOBRE DUBAI</h1>
+         <P style="font-size: 1.3rem; max-width: 600px;">Sumergete en la cultura, la historia, la arquitectura y más hermosos del mundo.</P>
+    </section>
+    <section id="catalogo">
+        <h2>Lugares Turisticos</h2>
+        <p>Explora algunos de los rincones del pais</p>
+        <div class="turismo-grid">
+             <div class="tarjeta-lugar">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkZgeLQA8Gr7tnx4skv3-YkXlog9zIgeKtXZqWbwBqfA&s=10" alt="DUBAI">
+                  <div class="tarjeta-info">
+                    <h3>Dubai</h3>
+                    <p>Disfruta lo moderno que esta</p>
+                  </div>
+             </div>
+             <div class="tarjeta-lugar">
+                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ofOd3g-oSMdSNR_mdfho_gPer_S7ay_3D18LJV2vSg&s=10" alt="MUSEO">
+                   <div class="tarjeta-info">
+                    <h3>Museo mas vistado del mundo "EL MUSEO DEL FUTURO"</h3>
+                </div>
+             </div>
+        </div>
+    </section>
+    <section id="Contactanos">
+           <h2>Planifica tu Viaje</h2>
+           <p style="max-width: 500px;">¿Tienes dudas sobre la proxima aventura?Escribenos</p>
+           <p style="font-weight: bold; color: #c5f100;"></p>
+    </section>
+</body>
+</html>
